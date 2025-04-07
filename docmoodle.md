@@ -8,6 +8,9 @@
 - No menu iniciar do Windows, digite “variáveis de ambiente” na barra de pesquisa.
 - Clique em “Editar as variáveis de ambiente do sistema”.
 - Na janela “Propriedades do sistema”, clique em “Variáveis de Ambiente...” no canto inferior direito.
+
+  !(https://raw.githubusercontent.com/KarolDegan/Imagens/refs/heads/main/Imagens/Imagem1.png)
+
 - Na seção “Variáveis de usuário”, localize e selecione a variável “Path”.
 - Clique em “Editar” para modificar a variável.
 - Clique em “Novo”.

@@ -9,14 +9,18 @@
 - Clique em “Editar as variáveis de ambiente do sistema”.
 - Na janela “Propriedades do sistema”, clique em “Variáveis de Ambiente...” no canto inferior direito.
 
-```html
-<img src="https://github.com/KarolDegan/Imagens/blob/main/Imagens/Imagem1.png?raw=true" alt="Propriedades do sistema">
-```
+<img src="https://github.com/KarolDegan/Imagens/blob/main/Imagens/Imagem1.png?raw=true" alt="Propriedades do sistema" width="300" height="300"  style="margin-left: 150px; margin-bottom: 20px;">
 
 - Na seção “Variáveis de usuário”, localize e selecione a variável “Path”.
 - Clique em “Editar” para modificar a variável.
+
+<img src="https://github.com/KarolDegan/Imagens/blob/main/Imagens/Imagem2.png?raw=true" alt="Variáveis de Ambiente" width="300" height="300"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+
 - Clique em “Novo”.
 - O caminho a ser adicionado deve apontar para o diretório onde o arquivo executável do PHP (php.exe) está localizado. Para o XAMPP, o caminho será geralmente algo como: `C:\xampp\php`.
+
+<img src="https://github.com/KarolDegan/Imagens/blob/main/Imagens/Imagem3.png?raw=true" alt="Editar variável de ambiente" width="300" height="300"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+
 - Clique em “OK” em todas as janelas para salvar as alterações.
 - Abra o Prompt de Comando (cmd).
 - Navegue até o diretório onde o PHP está localizado no XAMPP: 
@@ -85,14 +89,28 @@ As extensões a serem descomentadas:
 
 ## Criar Banco de Dados:
 - No phpMyAdmin, clique em "Novo" (no canto superior esquerdo).
+
+<img src="https://github.com/KarolDegan/Imagens/blob/main/Imagens/Imagem4.png?raw=true" width="200" height="200"  style="margin-left: 150px; margin-bottom: 20px; margin-top: 10px;">
+
 - Crie um banco chamado “moodle”, com a Collation: “utf8mb4_unicode_ci”.
 
 ## Criar usuário admin:
 - Com o banco de dados `moodle` selecionado, vá até a aba “Privilégios” no menu superior e clique em “Adicionar conta de usuário”.
+
+<img src="https://github.com/KarolDegan/Imagens/blob/main/Imagens/Imagem5.png?raw=true" width="600" height="300"  style="margin-left: 15px; margin-bottom: 20px; margin-top: 10px;">
+
 - Dê um nome para o usuário e coloque o Nome do Host como `localhost`.
+
+<img src="https://github.com/KarolDegan/Imagens/blob/main/Imagens/Imagem6.png?raw=true" width="400" height="250"  style="margin-left: 100px; margin-bottom: 20px; margin-top: 10px;">
+
 - Selecione a opção “conceder todos os privilégios no banco de dados moodle”.
+
+<img src="https://github.com/KarolDegan/Imagens/blob/main/Imagens/Imagem7.png?raw=true" width="400" height="150"  style="margin-left: 100px; margin-bottom: 20px; margin-top: 10px;">
+
 - Clique em “executar” no campo superior esquerdo.
 - Mantenha os privilégios específicos do banco de dados.
+
+<img src="https://github.com/KarolDegan/Imagens/blob/main/Imagens/Imagem8.png?raw=true" width="400" height="300"  style="margin-left: 100px; margin-bottom: 20px; margin-top: 10px;">
 
 ## Criando o `moodleuser`:
 - Siga as instruções novamente para o `moodleuser`, mas modifique as configurações de “Privilégios específicos de banco de dados”:
@@ -105,6 +123,8 @@ As extensões a serem descomentadas:
 - DROP
 - INDEX
 - ALTER
+
+<img src="https://github.com/KarolDegan/Imagens/blob/main/Imagens/Imagem9.png?raw=true" width="400" height="300"  style="margin-left: 100px; margin-bottom: 20px; margin-top: 10px;">
 
 - Clique em "executar".
 

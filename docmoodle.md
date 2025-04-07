@@ -9,7 +9,9 @@
 - Clique em “Editar as variáveis de ambiente do sistema”.
 - Na janela “Propriedades do sistema”, clique em “Variáveis de Ambiente...” no canto inferior direito.
 
-  !(https://raw.githubusercontent.com/KarolDegan/Imagens/refs/heads/main/Imagens/Imagem1.png)
+```html
+<img src="https://github.com/KarolDegan/Imagens/blob/main/Imagens/Imagem1.png?raw=true" alt="Propriedades do sistema">
+```
 
 - Na seção “Variáveis de usuário”, localize e selecione a variável “Path”.
 - Clique em “Editar” para modificar a variável.
